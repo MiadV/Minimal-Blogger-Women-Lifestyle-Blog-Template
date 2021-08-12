@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- REMIXICONS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Minimal - Blogger</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__top">
+        <nav class="nav container">
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link active-link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Blogs</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Categories</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">About Us</a>
+              </li>
+            </ul>
+
+            <i class="ri-close-line nav__close" id="nav-close"></i>
+          </div>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-2-line"></i>
+          </div>
+
+          <div class="nav__icons">
+            <a href="#" class="nav__link"><i class="ri-facebook-line"></i></a>
+            <a href="#" class="nav__link"><i class="ri-instagram-line"></i></a>
+            <a href="#" class="nav__link"><i class="ri-twitter-line"></i></a>
+            <a href="#" class="nav__link"><i class="ri-search-line"></i></a>
+          </div>
+        </nav>
+      </div>
+      <div class="header__bottom">
+        <div class="header__title">Minimal blog</div>
+        <h1 class="header__subtitle">women's lifestyle blog</h1>
+      </div>
+    </header>
+
+    <main class="main container">
+      <!-- HERO -->
+      <div class="hero">
+        <div class="swiper-container hero__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <article class="slider-item">
+                <img
+                  src="./assets/images/a1-min.jpg"
+                  alt="slider item"
+                  class="slider-item__img"
+                />
+                <div class="slider-item__overlay"></div>
+                <div class="slider-item__content">
+                  <a href="#">
+                    <h2 class="title">
+                      Lorem, ipsum dolor sit amet consectetur.
+                    </h2>
+                  </a>
+                  <p class="meta">2 days ago by john doe</p>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="slider-item">
+                <img
+                  src="./assets/images/a2-min.jpg"
+                  alt="slider item"
+                  class="slider-item__img"
+                />
+                <div class="slider-item__overlay"></div>
+                <div class="slider-item__content">
+                  <a href="#">
+                    <h2 class="title">
+                      Lorem, ipsum dolor sit amet consectetur.
+                    </h2>
+                  </a>
+                  <p class="meta">2 days ago by john doe</p>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="slider-item">
+                <img
+                  src="./assets/images/a3-min.jpg"
+                  alt="slider item"
+                  class="slider-item__img"
+                />
+                <div class="slider-item__overlay"></div>
+                <div class="slider-item__content">
+                  <a href="#">
+                    <h2 class="title">
+                      Lorem, ipsum dolor sit amet consectetur.
+                    </h2>
+                  </a>
+                  <p class="meta">2 days ago by john doe</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+
+      <!-- JOIN US -->
+      <section class="join-us" id="join-us">
+        <div>
+          <h3 class="join-us__title">JOIN Us Today!</h3>
+          <p class="join-us__subtitle">
+            Subscribe to our blog and get the latest updates in your inbox.
+          </p>
+        </div>
+        <form action="#" class="join-us__form">
+          <input type="text" placeholder="Your name" />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email address"
+            id="email"
+          />
+          <button class="btn btn--primary">subscribe</button>
+        </form>
+      </section>
+
+      <!-- MAIN GRID -->
+      <div class="main-grid">
+        <div>
+          <div class="blogs-grid">
+            <article class="blog-item">
+              <div class="image-wrapper">
+                <a href="#"
+                  ><img
+                    src="./assets/images/a4-min.jpg"
+                    alt="blog item"
+                    class="blog-item__image"
+                /></a>
+
+                <span class="tag tag--primary"><a href="#">featured</a></span>
+              </div>
+              <div class="content-wrapper">
+                <ul class="categories">
+                  <li><a href="#">Explore</a></li>
+                  <li><a href="#">Lifestyle</a></li>
+                </ul>
+
+                <h2 class="title">
+                  <a href="#">Trip to vegas: travel itinerary</a>
+                </h2>
+
+                <div class="meta"><p>by Miad on June 18, 2021</p></div>
+
+                <p class="excerpt">
+                  Eodem modo typi, qui nunc nobis videntur parum clari, fiant
+                  sollemnes in futurum. Mirum est notare quam…
+                </p>
+
+                <div>
+                  <a href="#" class="read-more">continue reading...</a>
+                </div>
+              </div>
+            </article>
+            <article class="blog-item">
+              <div class="image-wrapper">
+                <a href="#"
+                  ><img
+                    src="./assets/images/a5-min.jpg"
+                    alt="blog item"
+                    class="blog-item__image"
+                /></a>
+
+                <span class="tag tag--primary"><a href="#">featured</a></span>
+              </div>
+              <div class="content-wrapper">
+                <ul class="categories">
+                  <li><a href="#">Explore</a></li>
+                  <li><a href="#">Lifestyle</a></li>
+                </ul>
+
+                <h2 class="title">
+                  <a href="#">Trip to vegas: travel itinerary</a>
+                </h2>
+
+                <div class="meta"><p>by Miad on June 18, 2021</p></div>
+
+                <p class="excerpt">
+                  Eodem modo typi, qui nunc nobis videntur parum clari, fiant
+                  sollemnes in futurum. Mirum est notare quam…
+                </p>
+
+                <div>
+                  <a href="#" class="read-more">continue reading...</a>
+                </div>
+              </div>
+            </article>
+            <article class="blog-item">
+              <div class="image-wrapper">
+                <a href="#"
+                  ><img
+                    src="./assets/images/a6-min.jpg"
+                    alt="blog item"
+                    class="blog-item__image"
+                /></a>
+
+                <span class="tag tag--primary"><a href="#">featured</a></span>
+              </div>
+              <div class="content-wrapper">
+                <ul class="categories">
+                  <li><a href="#">Explore</a></li>
+                  <li><a href="#">Lifestyle</a></li>
+                </ul>
+
+                <h2 class="title">
+                  <a href="#">Trip to vegas: travel itinerary</a>
+                </h2>
+
+                <div class="meta"><p>by Miad on June 18, 2021</p></div>
+
+                <p class="excerpt">
+                  Eodem modo typi, qui nunc nobis videntur parum clari, fiant
+                  sollemnes in futurum. Mirum est notare quam…
+                </p>
+
+                <div>
+                  <a href="#" class="read-more">continue reading...</a>
+                </div>
+              </div>
+            </article>
+            <article class="blog-item">
+              <div class="image-wrapper">
+                <a href="#"
+                  ><img
+                    src="./assets/images/a7-min.jpg"
+                    alt="blog item"
+                    class="blog-item__image"
+                /></a>
+
+                <span class="tag tag--primary"><a href="#">featured</a></span>
+              </div>
+              <div class="content-wrapper">
+                <ul class="categories">
+                  <li><a href="#">Explore</a></li>
+                  <li><a href="#">Lifestyle</a></li>
+                </ul>
+
+                <h2 class="title">
+                  <a href="#">Trip to vegas: travel itinerary</a>
+                </h2>
+
+                <div class="meta"><p>by Miad on June 18, 2021</p></div>
+
+                <p class="excerpt">
+                  Eodem modo typi, qui nunc nobis videntur parum clari, fiant
+                  sollemnes in futurum. Mirum est notare quam…
+                </p>
+
+                <div>
+                  <a href="#" class="read-more">continue reading...</a>
+                </div>
+              </div>
+            </article>
+            <article class="blog-item">
+              <div class="image-wrapper">
+                <a href="#"
+                  ><img
+                    src="./assets/images/a8-min.jpg"
+                    alt="blog item"
+                    class="blog-item__image"
+                /></a>
+
+                <span class="tag tag--primary"><a href="#">featured</a></span>
+              </div>
+              <div class="content-wrapper">
+                <ul class="categories">
+                  <li><a href="#">Explore</a></li>
+                  <li><a href="#">Lifestyle</a></li>
+                </ul>
+
+                <h2 class="title">
+                  <a href="#">Trip to vegas: travel itinerary</a>
+                </h2>
+
+                <div class="meta"><p>by Miad on June 18, 2021</p></div>
+
+                <p class="excerpt">
+                  Eodem modo typi, qui nunc nobis videntur parum clari, fiant
+                  sollemnes in futurum. Mirum est notare quam…
+                </p>
+
+                <div>
+                  <a href="#" class="read-more">continue reading...</a>
+                </div>
+              </div>
+            </article>
+            <article class="blog-item">
+              <div class="image-wrapper">
+                <a href="#"
+                  ><img
+                    src="./assets/images/a9-min.jpg"
+                    alt="blog item"
+                    class="blog-item__image"
+                /></a>
+
+                <span class="tag tag--primary"><a href="#">featured</a></span>
+              </div>
+              <div class="content-wrapper">
+                <ul class="categories">
+                  <li><a href="#">Explore</a></li>
+                  <li><a href="#">Lifestyle</a></li>
+                </ul>
+
+                <h2 class="title">
+                  <a href="#">Trip to vegas: travel itinerary</a>
+                </h2>
+
+                <div class="meta"><p>by Miad on June 18, 2021</p></div>
+
+                <p class="excerpt">
+                  Eodem modo typi, qui nunc nobis videntur parum clari, fiant
+                  sollemnes in futurum. Mirum est notare quam…
+                </p>
+
+                <div>
+                  <a href="#" class="read-more">continue reading...</a>
+                </div>
+              </div>
+            </article>
+            <article class="blog-item">
+              <div class="image-wrapper">
+                <a href="#"
+                  ><img
+                    src="./assets/images/a10-min.jpg"
+                    alt="blog item"
+                    class="blog-item__image"
+                /></a>
+
+                <span class="tag tag--primary"><a href="#">featured</a></span>
+              </div>
+              <div class="content-wrapper">
+                <ul class="categories">
+                  <li><a href="#">Explore</a></li>
+                  <li><a href="#">Lifestyle</a></li>
+                </ul>
+
+                <h2 class="title">
+                  <a href="#">Trip to vegas: travel itinerary</a>
+                </h2>
+
+                <div class="meta"><p>by Miad on June 18, 2021</p></div>
+
+                <p class="excerpt">
+                  Eodem modo typi, qui nunc nobis videntur parum clari, fiant
+                  sollemnes in futurum. Mirum est notare quam…
+                </p>
+
+                <div>
+                  <a href="#" class="read-more">continue reading...</a>
+                </div>
+              </div>
+            </article>
+            <article class="blog-item">
+              <div class="image-wrapper">
+                <a href="#"
+                  ><img
+                    src="./assets/images/a11-min.jpg"
+                    alt="blog item"
+                    class="blog-item__image"
+                /></a>
+
+                <span class="tag tag--primary"><a href="#">featured</a></span>
+              </div>
+              <div class="content-wrapper">
+                <ul class="categories">
+                  <li><a href="#">Explore</a></li>
+                  <li><a href="#">Lifestyle</a></li>
+                </ul>
+
+                <h2 class="title">
+                  <a href="#">Trip to vegas: travel itinerary</a>
+                </h2>
+
+                <div class="meta"><p>by Miad on June 18, 2021</p></div>
+
+                <p class="excerpt">
+                  Eodem modo typi, qui nunc nobis videntur parum clari, fiant
+                  sollemnes in futurum. Mirum est notare quam…
+                </p>
+
+                <div>
+                  <a href="#" class="read-more">continue reading...</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="pagination">
+            <a href="#" class="pagination__item current">1</a>
+            <a href="#" class="pagination__item">2</a>
+            <a href="#" class="pagination__item">>></a>
+          </div>
+        </div>
+        <aside>
+          <div class="sidebar">
+            <div class="widget widget-profile">
+              <h3 class="title">hello, there!</h3>
+
+              <div class="widget__body">
+                <img
+                  src="./assets/images/profile.jpg"
+                  alt="profile photo"
+                  class="profile-photo"
+                />
+
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti.
+                </p>
+
+                <img
+                  src="./assets/images/signature.png"
+                  alt="signature"
+                  class="signature"
+                />
+              </div>
+            </div>
+            <div class="widget widget-social">
+              <h3 class="title">get connected</h3>
+
+              <div class="widget__body">
+                <p class="text">
+                  Follow on our social communities and receive NEW posts
+                </p>
+
+                <a href="#" class="icon-btn">
+                  <i class="ri-facebook-line"></i>
+                </a>
+                <a href="#" class="icon-btn">
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a href="#" class="icon-btn">
+                  <i class="ri-twitter-line"></i>
+                </a>
+              </div>
+            </div>
+            <div class="widget widget-search">
+              <h3 class="title">search</h3>
+              <div class="widget__body">
+                <form action="#" class="search">
+                  <input type="text" placeholder="Search here..." />
+                  <button type="submit">
+                    <i class="ri-search-line"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="widget widget-categories">
+              <h3 class="title">categories</h3>
+
+              <div class="widget__body">
+                <ul class="categories">
+                  <li><a href="#">fashion</a></li>
+                  <li><a href="#">lifestyle</a></li>
+                  <li><a href="#">travel</a></li>
+                  <li><a href="#">cooking</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="widget widget-recent-posts">
+              <h3 class="title">recent posts</h3>
+
+              <div class="widget__body">
+                <div class="post-item">
+                  <a href="#">
+                    <img
+                      src="./assets/images/a1-min.jpg"
+                      alt="post"
+                      class="post-item__image"
+                    />
+                  </a>
+                  <div>
+                    <h3 class="post-item__title">
+                      <a href="#">Why traveling is good</a>
+                    </h3>
+
+                    <span class="post-item__meta">
+                      by Miad on June 18, 2021
+                    </span>
+                  </div>
+                </div>
+                <div class="post-item">
+                  <a href="#">
+                    <img
+                      src="./assets/images/a2-min.jpg"
+                      alt="post"
+                      class="post-item__image"
+                    />
+                  </a>
+                  <div>
+                    <h3 class="post-item__title">
+                      <a href="#">Why traveling is good</a>
+                    </h3>
+
+                    <span class="post-item__meta">
+                      by Miad on June 18, 2021
+                    </span>
+                  </div>
+                </div>
+                <div class="post-item">
+                  <a href="#">
+                    <img
+                      src="./assets/images/a3-min.jpg"
+                      alt="post"
+                      class="post-item__image"
+                    />
+                  </a>
+                  <div>
+                    <h3 class="post-item__title">
+                      <a href="#">Why traveling is good</a>
+                    </h3>
+
+                    <span class="post-item__meta">
+                      by Miad on June 18, 2021
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="widget widget-tags">
+              <h3 class="title">tags</h3>
+
+              <div class="widget__body">
+                <div class="widget-tags__wrapper">
+                  <span class="tag"><a href="#">featured</a></span>
+                  <span class="tag"><a href="#">adventure</a></span>
+                  <span class="tag"><a href="#">food</a></span>
+                  <span class="tag"><a href="#">fashion</a></span>
+                  <span class="tag"><a href="#">travel</a></span>
+                  <span class="tag"><a href="#">fun</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__menu">
+          <li><a href="#">fashion</a></li>
+          <li><a href="#">lifestyle</a></li>
+          <li><a href="#">travel</a></li>
+          <li><a href="#">cooking</a></li>
+        </ul>
+
+        <div class="seperator"></div>
+
+        <span class="copyright">&copy;2021 - Miad V</span>
+      </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <a href="#" class="icon-btn" id="back-to-top">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- SWIPER JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

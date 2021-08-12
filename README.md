@@ -9,4 +9,5 @@
 Join the channel to see more videos like this. [Miad V](https://www.youtube.com/channel/UCAgauq33hSuPU2lGLUkyC7A)
 
 ![](/preview.png)
+
 # Minimal-Blogger-Structure
