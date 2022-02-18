@@ -12,6 +12,8 @@
 
 Join my youtube channel to see more videos like this. [Youtube Channel](https://www.youtube.com/c/MiadVosoughi)
 
+![](/preview.png)
+
 ### Development
 
 **This project uses [Vite](https://vitejs.dev/) as it's dev server.**
@@ -89,5 +91,3 @@ Please review the [license](LICENSE) and remove all client information (logo, ad
         <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=flat&logo=instagram&logoColor=white" />
     </a>
 </p>
-
-![](/preview.png)
