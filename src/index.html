@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -12,12 +13,12 @@
     />
 
     <!-- SWIPER CSS -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/vendor/swiper-bundle.min.css" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- SCSS: will be proccessed with our bundler and replaced with CSS -->
+    <link rel="stylesheet" href="./scss/styles.scss" />
 
-    <title>Minimal - Blogger</title>
+    <title>Minimal Blogger - Women's Lifestyle Blog - Template</title>
   </head>
   <body>
     <header class="header" id="header">
@@ -68,7 +69,7 @@
             <div class="swiper-slide">
               <article class="slider-item">
                 <img
-                  src="./assets/images/a1-min.jpg"
+                  src="/images/a1-min.jpg"
                   alt="slider item"
                   class="slider-item__img"
                 />
@@ -86,7 +87,7 @@
             <div class="swiper-slide">
               <article class="slider-item">
                 <img
-                  src="./assets/images/a2-min.jpg"
+                  src="/images/a2-min.jpg"
                   alt="slider item"
                   class="slider-item__img"
                 />
@@ -104,7 +105,7 @@
             <div class="swiper-slide">
               <article class="slider-item">
                 <img
-                  src="./assets/images/a3-min.jpg"
+                  src="/images/a3-min.jpg"
                   alt="slider item"
                   class="slider-item__img"
                 />
@@ -153,7 +154,7 @@
               <div class="image-wrapper">
                 <a href="#"
                   ><img
-                    src="./assets/images/a4-min.jpg"
+                    src="/images/a4-min.jpg"
                     alt="blog item"
                     class="blog-item__image"
                 /></a>
@@ -186,7 +187,7 @@
               <div class="image-wrapper">
                 <a href="#"
                   ><img
-                    src="./assets/images/a5-min.jpg"
+                    src="/images/a5-min.jpg"
                     alt="blog item"
                     class="blog-item__image"
                 /></a>
@@ -219,7 +220,7 @@
               <div class="image-wrapper">
                 <a href="#"
                   ><img
-                    src="./assets/images/a6-min.jpg"
+                    src="/images/a6-min.jpg"
                     alt="blog item"
                     class="blog-item__image"
                 /></a>
@@ -252,7 +253,7 @@
               <div class="image-wrapper">
                 <a href="#"
                   ><img
-                    src="./assets/images/a7-min.jpg"
+                    src="/images/a7-min.jpg"
                     alt="blog item"
                     class="blog-item__image"
                 /></a>
@@ -285,7 +286,7 @@
               <div class="image-wrapper">
                 <a href="#"
                   ><img
-                    src="./assets/images/a8-min.jpg"
+                    src="/images/a8-min.jpg"
                     alt="blog item"
                     class="blog-item__image"
                 /></a>
@@ -318,7 +319,7 @@
               <div class="image-wrapper">
                 <a href="#"
                   ><img
-                    src="./assets/images/a9-min.jpg"
+                    src="/images/a9-min.jpg"
                     alt="blog item"
                     class="blog-item__image"
                 /></a>
@@ -351,7 +352,7 @@
               <div class="image-wrapper">
                 <a href="#"
                   ><img
-                    src="./assets/images/a10-min.jpg"
+                    src="/images/a10-min.jpg"
                     alt="blog item"
                     class="blog-item__image"
                 /></a>
@@ -384,7 +385,7 @@
               <div class="image-wrapper">
                 <a href="#"
                   ><img
-                    src="./assets/images/a11-min.jpg"
+                    src="/images/a11-min.jpg"
                     alt="blog item"
                     class="blog-item__image"
                 /></a>
@@ -427,7 +428,7 @@
 
               <div class="widget__body">
                 <img
-                  src="./assets/images/profile.jpg"
+                  src="/images/profile.jpg"
                   alt="profile photo"
                   class="profile-photo"
                 />
@@ -438,7 +439,7 @@
                 </p>
 
                 <img
-                  src="./assets/images/signature.png"
+                  src="/images/signature.png"
                   alt="signature"
                   class="signature"
                 />
@@ -493,7 +494,7 @@
                 <div class="post-item">
                   <a href="#">
                     <img
-                      src="./assets/images/a1-min.jpg"
+                      src="/images/a1-min.jpg"
                       alt="post"
                       class="post-item__image"
                     />
@@ -511,7 +512,7 @@
                 <div class="post-item">
                   <a href="#">
                     <img
-                      src="./assets/images/a2-min.jpg"
+                      src="/images/a2-min.jpg"
                       alt="post"
                       class="post-item__image"
                     />
@@ -529,7 +530,7 @@
                 <div class="post-item">
                   <a href="#">
                     <img
-                      src="./assets/images/a3-min.jpg"
+                      src="/images/a3-min.jpg"
                       alt="post"
                       class="post-item__image"
                     />
@@ -576,7 +577,9 @@
 
         <div class="seperator"></div>
 
-        <span class="copyright">&copy;2021 - Miad V</span>
+        <span class="copyright">
+          <a href="https://github.com/MiadV">&copy;2021 - Miad V</a>
+        </span>
       </div>
     </footer>
 
@@ -586,9 +589,9 @@
     </a>
 
     <!-- SWIPER JS -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="/vendor/swiper-bundle.min.js"></script>
 
     <!-- MAIN JS -->
-    <script src="assets/js/main.js"></script>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
